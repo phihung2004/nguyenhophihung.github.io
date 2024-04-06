@@ -1,0 +1,102 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.profile {
+    width: 15vw;
+    display: block;
+    margin: auto;
+    border-style: solid;
+}
+
+hr {
+    height: 3px;
+    background-color: black;
+    border: none;
+}
+
+.container {
+    background-color: #e3e3e3;
+}
+
+.info {
+    display: block;
+    border-style: solid;
+    background-color: #c2c2c2;
+    padding-right: 15px;
+}
+
+.info-container {
+    display: block;
+    margin: auto;
+}
+
+#info-title {
+    text-align: center;
+}
+
+#cerHT {
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+#job-title {
+    text-align: center;
+}
+
+figcaption {
+    text-align: center;
+}
+
+#skills {
+    display: block;
+    font-size: 150%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .info {
+        display: block;
+    }
+
+    #skills {
+        display: block;
+        margin: auto;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .info {
+        display: inline-block;
+        margin-left: 20%;
+        border-radius: 15%;
+    }
+
+    #skills {
+        display: inline-block;
+        margin-left: 10%;
+    }
+
+    .info-container {
+        width: 100%;
+        align-items: center;
+    }
+
+    .profile {
+        border-radius: 15%;
+    }
+
+
+}
+
+.sticky-footer {
+    display: block;
+    height: 30px;
+    background-color: #bababa;
+    font-size: 20px;
+
+}
